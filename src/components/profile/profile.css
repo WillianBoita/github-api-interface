@@ -1,0 +1,47 @@
+.profile-container {
+    display: flex;
+    flex-direction: row;
+    padding: 4px;
+    gap: 4px;
+    font-size: x-small;
+}
+
+.profile-info-container {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.sub-info-container {
+    display: flex;
+    flex-direction: row;
+    font-size: xx-small;
+    margin: 4px;
+    gap: 6px;
+}
+
+.profile-img {
+    width: 10%;
+    border-radius: 50%;
+    margin: 4px;
+}
+
+.info-content {
+    display: flex;
+    justify-content: center;
+}
+
+.name {
+    font-size: large;
+    font-weight: bold;
+}
+
+strong {
+    color: black;
+}
+
+.link {
+    color: blue;
+    text-decoration: none;
+    cursor: pointer;
+}
